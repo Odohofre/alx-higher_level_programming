@@ -5,4 +5,4 @@ for i in range(97, 123):
     elif i == 113:
         continue
     else:
-        print(f"{chr(i)}")
+        print("{}".format(chr(i)))
