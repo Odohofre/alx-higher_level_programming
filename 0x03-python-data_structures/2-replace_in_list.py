@@ -11,7 +11,7 @@ def replace_in_list(my_list, idx, element):
         NONE: if idx is less than zero or out of range
         The return value: new list with new element
     """
-    if idx <= 0 and idx > len(my_list):
+    if idx <= 0 or idx >= len(my_list):
         return (my_list)
     else:
         my_list[idx] = element

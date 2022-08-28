@@ -6,4 +6,9 @@ def print_matrix_integer(matrix=[[]]):
         matrix (list, optional): list of integers. Defaults to [[]].
     """
     for row in matrix:
-        print("{}".format(row))
+        for col in row:
+            if col is not row[len(row) - 1]:
+                print("{}".format(col), end=" ")
+            else:
+                print("{}".format(col), end="")
+        print()

@@ -13,6 +13,11 @@ def no_c(my_string):
     new_str = ""
 
     for i in my_list:
-        if i == 'c' or i == 'C':
+        if i in 'Cc':
             my_list.remove(i)
     return (new_str.join(my_list))
+
+
+print(no_c("Best School"))
+print(no_c("Chicago"))
+print(no_c("C is fun!"))
