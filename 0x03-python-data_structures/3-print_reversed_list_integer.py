@@ -7,4 +7,7 @@ def print_reversed_list_integer(my_list=[]):
     Returns:
         list in reversed order
     """
-    print(f"{my_list[::-1]}")
+    if my_list is None:
+        return
+    else:
+        print(f"{my_list[::-1]}")
