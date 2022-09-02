@@ -70,9 +70,9 @@ What you should learn from this project:
 
 ### [12. Roman to Integer](./12-roman_to_int.py)
 
-## Advance
-
 * Create a function that converts a [Roman numeral](https://en.wikipedia.org/wiki/Roman_numerals) to an integer.
+
+## Advance
 
 ### [13. Weighted average!](./100-weight_average.py)
 
