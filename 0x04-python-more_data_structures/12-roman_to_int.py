@@ -1,5 +1,14 @@
 #!/usr/bin/python3
 def roman_to_int(roman_string):
+    """converts a Roman numeral to integer
+
+    Args:
+        roman_string (str): roman numerals
+
+    Returns:
+        int: converted value
+        Zero: if roman_string is not a string or None
+    """    
     roman_numerals = {"I": 1,
                       "V": 5,
                       "X": 10,
@@ -10,7 +19,7 @@ def roman_to_int(roman_string):
 
     if roman_string is None or type(roman_string) is not str:
         return 0
-    if roman_string == 0:
+    if roman_string == "":
         return 0
 
     arabic_numeral = 0
