@@ -8,7 +8,7 @@ def roman_to_int(roman_string):
     Returns:
         int: converted value
         Zero: if roman_string is not a string or None
-    """    
+    """
     roman_numerals = {"I": 1,
                       "V": 5,
                       "X": 10,
