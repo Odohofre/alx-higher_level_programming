@@ -1,17 +1,29 @@
-# 0x05. Python - Exceptions
+# 0x06. Python - Classes and Objects
 
 ## Description
 
 What you should learn from this project:
 
 * Why Python programming is awesome
-* What’s the difference between errors and * exceptions
-* What are exceptions and how to use them
-* When do we need to use exceptions
-* How to correctly handle an exception
-* What’s the purpose of catching exceptions
-* How to raise a builtin exception
-* When do we need to implement a clean-up action after an exception
+* What is OOP
+* “first-class everything”
+* What is a class
+* What is an object and an instance
+* What is the difference between a class and an object or instance
+* What is an attribute
+* What are and how to use public, protected and private attributes
+* What is **self**
+* What is a method
+* What is the special **\_\_init\_\_** method and how to use it
+* What is Data Abstraction, Data Encapsulation, and Information Hiding
+* What is a property
+* What is the difference between an attribute and a property in Python
+* What is the Pythonic way to write getters and setters in Python
+* How to dynamically create arbitrary new attributes for existing instances of a class
+* How to bind attributes to object and classes
+* What is the **\_\_dict\_\_** of a class and/or instance of a class and what does it contain
+* How does Python find the attributes of an object or class
+* How to use the **getattr** function
 
 ## Environment
 
@@ -21,49 +33,47 @@ What you should learn from this project:
 
 ## Mandatory
 
-### []()
+### [0. My first square](./0-square.py)
 
-*
+* Write an empty class **Square** that defines a square.
 
-### []()
+### [1. Square with size](./1-square.py)
 
-*
+* Write an empty class **Square** that defines a square.
 
-### []()
+### [2. Size validation](./2-square.py)
 
-*
+* Write an empty class **Square** that defines a square.
 
-### []()
+### [3. Area of a square](./3-square.py)
 
-*
+* Write an empty class **Square** that defines a square.
 
-### []()
+### [4. Access and update private attribute](./4-square.py)
 
-*
+* Write an empty class **Square** that defines a square.
 
-### []()
+### [5. Printing a square](./5-square.py)
 
-*
+* Write an empty class **Square** that defines a square.
 
-### []()
+### [6. Coordinates of square](./6-square.py)
 
-*
+* Write an empty class **Square** that defines a square.
 
-### []()
+## Advance
 
-*
+### [7. Singly linked list](./100-singly_linked_list.py)
 
-### []()
+* Write a class **Node** that defines a node of a singly linked list.
 
-*
+### [8. Print Square instance](./101-square.py)
 
-### []()
-
-*
+* Write an empty class **Square** that defines a square.
 
 ### [9. Compare 2 squares](./102-square.py)
 
-* Write a class **Square** that defines a square by: (based on [4-square.py](./4-square.py))
+* Write a class **Square** that defines a square.
 
 ### [10. ByteCode -> Python #5](./103-magic_class.py)
 
