@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+"""
+Module 3-square
+Defines class Square with private attribute size and public attribute area
+"""
+
+
 class Square:
     """defines a square
 
